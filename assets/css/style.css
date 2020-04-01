@@ -5,4 +5,19 @@ body {
 }
 main {
   flex: 1 0 auto;
+  background-image: url(../images/gravel.png);
 }
+
+header {
+  background-color: rgb(238, 109, 115);
+}
+
+p {
+  font-size: large;
+  background-color: rgb(238, 109, 115);
+  color: white;
+}
+
+/* ul {
+  align-content: center;
+} */
