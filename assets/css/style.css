@@ -3,29 +3,47 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
+
 main {
   flex: 1 0 auto;
   background-image: url(../images/gravel.png);
 }
 
+.nav-extended.nav-center {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 nav.nav-center ul {
   text-align: center;
 }
+
 nav.nav-center ul li {
   display: inline;
   float: none;
 }
+
 nav.nav-center ul li a {
   display: inline-block;
   font-size: larger;
 }
 
-#name {
-  font-size: 50px;
+/* #name {
+  font-size: xx-large;
+  font-weight: 500;
+} */
+
+li {
+  font-size: larger;
 }
 
 header {
   background-color: rgb(238, 109, 115);
+}
+
+.container {
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 #gallery {
@@ -34,17 +52,13 @@ header {
   border-top-width: 4px;
 }
 
-h3 {
+h4 {
+  padding-top: 2%;
   color: rgb(238, 109, 115);
   text-align: center;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-
-/* .carousel {
-  margin-top: 0;
-  padding-top: 0;
-} */
 
 p {
   font-size: larger;
@@ -62,7 +76,3 @@ p {
 footer {
   padding-bottom: 2%;
 }
-
-/* ul {
-  align-content: center;
-} */
