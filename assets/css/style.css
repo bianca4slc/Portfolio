@@ -50,6 +50,8 @@ header {
   border-top-color: grey;
   border-top-style: solid;
   border-top-width: 4px;
+  /* margin-bottom: 2%; */
+  /* padding-bottom: 2%; */
 }
 
 h4 {
@@ -71,6 +73,11 @@ p {
   color: white;
   padding-top: 0;
   margin-top: 0;
+}
+
+.btn-floating {
+  background-color: black;
+  margin-left: 45%;
 }
 
 footer {
